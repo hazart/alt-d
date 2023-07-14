@@ -1,0 +1,56 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  margin: 0
+  padding: 0
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  font-size: 100%
+  font-weight: initial
+
+ul
+  list-style: none
+
+button,
+input,
+select,
+textarea
+  margin: 0
+  font: inherit
+
+html
+  box-sizing: border-box
+
+*,
+*::before,
+*::after
+  box-sizing: inherit
+
+ul[role="list"],
+ol[role="list"]
+  list-style: none
