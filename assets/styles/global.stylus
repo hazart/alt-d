@@ -1,0 +1,42 @@
+html
+  scroll-behavior: smooth
+  font-family: var(--font-family-text)
+  // font-size: $root-font-size©
+  word-spacing: 1px
+  -ms-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+  text-size-adjust: 100%
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  box-sizing: border-box
+  background-color: var(--color-top)
+  background-attachment: fixed
+
+body
+  text-rendering: optimizeSpeed
+  line-height: 1.5
+  overflow: hidden auto
+  background: linear-gradient(180deg, var(--color-top) 0%, var(--color-bottom) 100%)
+  background-attachment: fixed
+  // color: $default-text-color
+
+h1
+  font-family: var(--font-family-title)
+  font-size: 46px
+  word-spacing: 1px
+  -ms-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  box-sizing: border-box
+
+a
+  text-decoration: none
+
+img,
+picture
+  max-width: 100%
+  display: block
+
+.rounded
+  border-radius: 5px

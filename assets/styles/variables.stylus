@@ -1,0 +1,8 @@
+html
+  --font-family-text: lucida grande,lucida sans nicode,lucida sans,geneva,verdana,sans-serif
+  // --font-family-title: lucida grande,lucida sans nicode,lucida sans,geneva,verdana,sans-serif
+  --font-family-title: impact,sans-serif
+  --color-title: #000000ab
+  --color-top: hsl(194,100%,50%)
+  --color-bottom: hsl(173,100%,50%)
+  --color-background: hsla(0, 0%, 0%, 0.7)
